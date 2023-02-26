@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Section 1: My First Section}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Text Style}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Figure}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Table}{1}{subsection.1.3}%

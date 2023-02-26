@@ -1,0 +1,164 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{2author}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e30bde1d7bc5ae3cb5e786865a16bacc}{%
+           family={Akraradet},
+           familyi={A\bibinitperiod},
+           given={Sinsamersuk},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b9b62b48c41cd05268a9c32f112cd4ec}{%
+           family={Mehul},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d11f20bb2d36d26c4fdb4ad0fdca0d0a}
+      \strng{fullhash}{d11f20bb2d36d26c4fdb4ad0fdca0d0a}
+      \strng{bibnamehash}{d11f20bb2d36d26c4fdb4ad0fdca0d0a}
+      \strng{authorbibnamehash}{d11f20bb2d36d26c4fdb4ad0fdca0d0a}
+      \strng{authornamehash}{d11f20bb2d36d26c4fdb4ad0fdca0d0a}
+      \strng{authorfullhash}{d11f20bb2d36d26c4fdb4ad0fdca0d0a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CSIM}
+      \field{title}{The AIT Brainlab}
+      \field{year}{2023}
+    \endentry
+    \entry{3author}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7f5ce118a6ecb3efe02705b85364a074}{%
+           family={Amp},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6dc552a1ad682b1858654d5474d0e549}{%
+           family={Beau},
+           familyi={B\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=808eae6e6811839fd1041c52e7aed7d2}{%
+           family={Sunsun},
+           familyi={S\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9b87735afa9701e02faa455dfee609d}
+      \strng{fullhash}{bdaa06163837393fd85942ba8dc9d4d1}
+      \strng{bibnamehash}{bdaa06163837393fd85942ba8dc9d4d1}
+      \strng{authorbibnamehash}{bdaa06163837393fd85942ba8dc9d4d1}
+      \strng{authornamehash}{e9b87735afa9701e02faa455dfee609d}
+      \strng{authorfullhash}{bdaa06163837393fd85942ba8dc9d4d1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CSIM}
+      \field{title}{The AIT Brainlab}
+      \field{year}{2023}
+    \endentry
+    \entry{bcilab}{article}{}
+      \name{author}{1}{}{%
+        {{hash=990f8d2482ea397476ed83d1a988e6bd}{%
+           family={Chaklam},
+           familyi={C\bibinitperiod},
+           given={Silpasuwanchai},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{990f8d2482ea397476ed83d1a988e6bd}
+      \strng{fullhash}{990f8d2482ea397476ed83d1a988e6bd}
+      \strng{bibnamehash}{990f8d2482ea397476ed83d1a988e6bd}
+      \strng{authorbibnamehash}{990f8d2482ea397476ed83d1a988e6bd}
+      \strng{authornamehash}{990f8d2482ea397476ed83d1a988e6bd}
+      \strng{authorfullhash}{990f8d2482ea397476ed83d1a988e6bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CSIM}
+      \field{title}{The AIT Brainlab}
+      \field{year}{2022}
+    \endentry
+    \entry{vaswani2017attention}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Attention is all you need}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

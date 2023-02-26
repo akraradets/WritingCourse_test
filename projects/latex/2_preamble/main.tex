@@ -1,0 +1,33 @@
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+% THIS IS THE PREAMBLE: 
+% acts as the document's "setup" section. 
+% Within the preamble you define the document class (type) together with specifics such as languages to be used when writing the document; 
+% loading packages you would like to use (more on this later), and it is where you’d apply other types of configuration.
+
+% \documentclass{article}
+\documentclass[10pt, a5paper]{article}
+% \documentclass[font_size, paper_size]{classname}
+% This is like Article(font_size, paper_size) -> ArticleClass
+
+% https://ctan.org/pkg/graphicx?lang=en
+\usepackage{color}
+% \usepacke is like `import` in `python`
+% importing `color` will let you use some fun functions.
+\definecolor{red}{rgb}{1,0,0}
+% THIS IS THE CONTENT
+\begin{document}
+First document.
+This is a simple example,
+with no extra parameters or packages included.
+
+This is the second paragraph.
+But this is the new sentence.
+
+Example of `color'.
+\textcolor{red}{This is now red}.
+\end{document}
+
+
+% How do you know which package you need?
+% Stackoverflow. Google. ChatGPT.
+% Search it. GGWP

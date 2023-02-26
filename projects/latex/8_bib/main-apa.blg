@@ -1,0 +1,19 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main-apa.blg'
+[46] biber:340> INFO - === Sun Feb 26, 2023, 12:01:41
+[67] Biber.pm:418> INFO - Reading 'main-apa.bcf'
+[126] Biber.pm:978> INFO - Found 4 citekeys in bib section 0
+[143] Biber.pm:4401> INFO - Processing section 0
+[151] Biber.pm:4592> INFO - Looking for bibtex file 'references.bib' for section 0
+[158] bibtex.pm:1713> INFO - LaTeX decoding ...
+[161] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[203] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[204] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[205] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[215] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[217] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[218] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[219] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[222] bbl.pm:654> INFO - Writing 'main-apa.bbl' with encoding 'UTF-8'
+[234] bbl.pm:757> INFO - Output to main-apa.bbl

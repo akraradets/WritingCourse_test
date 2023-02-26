@@ -1,0 +1,92 @@
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+\documentclass{article}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{hyperref}
+\begin{document}
+
+Simplest Table. You can adapt this for writing in the column.
+
+\begin{center}
+    \begin{tabular}{c c c}
+     cell1 & cell2 & cell3 \\ 
+     cell4 & cell5 & cell6 \\  
+     cell7 & cell8 & cell9    
+    \end{tabular}
+\end{center}
+
+
+In the \verb!\begin{tabular}{}! we add $\mid$ in between the \textbf{c}.
+\verb!\hline! create horizontal line. Add it at the top and bottom resulting in a border.
+
+\begin{center}
+    \begin{tabular}{|c|c|c|} 
+     \hline
+     cell1 & cell2 & cell3 \\ 
+     cell4 & cell5 & cell6 \\ 
+     cell7 & cell8 & cell9 \\ 
+     \hline
+    \end{tabular}
+\end{center}
+
+Be creative and you can have a table head.
+
+\begin{center}
+    \begin{tabular}{|c|c|c|} 
+     \hline
+     \textbf{cell1} & \textbf{cell2} & \textbf{cell3} \\ 
+     \hline
+     cell4 & cell5 & cell6 \\ 
+     cell7 & cell8 & cell9 \\ 
+     \hline
+    \end{tabular}
+\end{center}
+
+Now, this is too fancy but it is good for future referencing.
+
+\begin{center}
+    \begin{tabular}{||c c c c||} 
+    \hline
+    Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+    \hline\hline
+    1 & 6 & 87837 & 787 \\ 
+    \hline
+    2 & 7 & 78 & 5415 \\
+    \hline
+    3 & 545 & 778 & 7507 \\
+    \hline
+    4 & 545 & 18744 & 7560 \\
+    \hline
+    5 & 88 & 788 & 6344 \\ [1ex] 
+    \hline
+   \end{tabular}
+\end{center}
+
+% Bad way to save you from overflow \hbox
+\begin{sloppypar}
+Writing a table from scratch is tedious. Use \url{https://www.tablesgenerator.com}
+\end{sloppypar}
+
+Now, the full version with captioning and referencing table~\ref{tab:demo-table}.
+
+\begin{table}[h]
+    \begin{center}
+        \begin{tabular}{||c c c c||} 
+        \hline
+        Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+        \hline\hline
+        1 & 6 & 87837 & 787 \\ 
+        \hline
+        2 & 7 & 78 & 5415 \\
+        \hline
+        3 & 545 & 778 & 7507 \\
+        \hline
+        4 & 545 & 18744 & 7560 \\
+        \hline
+        5 & 88 & 788 & 6344 \\ [1ex] 
+        \hline
+        \end{tabular}
+    \caption{\label{tab:demo-table}Your caption.}
+    \end{center}
+\end{table}
+
+\end{document}

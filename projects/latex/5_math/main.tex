@@ -1,0 +1,51 @@
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+\documentclass{article}
+\begin{document}
+
+\verb!Math! is used for writing a mathematical equation.
+There are multiple ways you can insert an equation.
+
+Inline equation $y = ax + b$ will insert the equation in between sentences.
+
+Display equation $$y = ax + b$$ will insert the equation in the new line.
+
+This is not equal to
+
+Display equation 
+
+$y = ax + b$
+
+will insert the equation in the new line.
+
+You can see, using \verb!$...$! with a new line will result in a new paragraph 
+while \verb!$$...$$! won't. \\
+
+Now, there are three ways you can do \textbf{inline equation}.
+
+\begin{enumerate}
+    \item $y = ax + b$
+    \item \begin{math}
+        y = ax + b
+    \end{math}
+    \item \(y = ax + b\)
+\end{enumerate}
+
+And there are the ways for \textbf{Display equation}.
+
+1. 
+$$ y = ax + b$$
+2.
+\[ y = ax + b\]
+3.
+\begin{displaymath}
+    y = ax + b
+\end{displaymath}
+4.
+\begin{equation}
+    v = ax + b
+\end{equation}
+
+Note that \LaTeX is not recommended to use \verb!$$...$$! anymore.
+
+
+\end{document}

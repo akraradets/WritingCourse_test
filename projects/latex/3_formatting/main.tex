@@ -1,0 +1,61 @@
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+
+\documentclass{article}
+
+% The title page is more like a config
+% Each parameter indicates the section in the title
+\title{My first LaTeX document}
+\author{Hubert Farnsworth\thanks{Funded by the Overleaf team.}}
+\date{12-12-2022}
+
+\begin{document}
+
+Not that this is the first paragraph.
+It will live at beginning of the document.
+
+% This inserts the title
+\maketitle
+% The generated title will be a new page
+% The text below continues from the title
+We have now added a title, author and date to our first \LaTeX{} document!
+
+% If you want to begin a new page, use \newpage
+\newpage
+First document.
+This is a simple example,
+with no extra parameters or packages included.
+
+This is the second paragraph.
+But this is the new sentence.
+
+\newpage
+% text style
+Normal text
+
+\textbf{Bold text}
+
+\textit{Italic text}
+
+\underline{underline}
+
+Emphasizing
+
+Normal sentence \emph{emph}.
+
+\textit{Italic sentence \emph{emph}.}
+
+\textbf{Bold sentence \emph{emph}.}
+
+
+\newpage
+\begin{itemize}
+    \item item 1
+    \item item 2
+\end{itemize}
+
+\begin{enumerate}
+    \item item 1
+    \item item 2
+\end{enumerate}
+
+\end{document}

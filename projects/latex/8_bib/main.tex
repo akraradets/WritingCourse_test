@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\usepackage[maxcitenames=2]{biblatex} %Imports biblatex package
+\addbibresource{references.bib} %Import the bibliography file
+
+
+\title{My first LaTeX document}
+\author{Hubert Farnsworth\thanks{Funded by the Overleaf team.}}
+\date{12-12-2022}
+
+\begin{document}
+
+% Title
+\maketitle
+% TOC
+\tableofcontents
+
+\include{section1.tex}
+
+
+
+\section{Cite Style}
+Here are the ways to cite people.
+
+\subsection{Subject Form}
+
+This form use author as subject.
+
+\begin{itemize}
+    \item \textcite{bcilab} asks master and Ph.D. students to publish 1 paper and 3 papers repectivly.
+    \item \textcite{2author} -- this is how the 2 authors look like
+    \item \textcite{3author} -- this is how the 3 authors look like
+    \item \textcite{vaswani2017attention} -- many many authors
+\end{itemize}
+
+\subsection{Indirect form}
+
+You probably see this more often. It used for citing sentence (where do you know this).
+
+\begin{itemize}
+    \item For the master students, 1 paper. For  Ph.D. students, 3 papers. OK? \cite{bcilab}
+\end{itemize}
+
+\subsection{Multiple Citation}
+
+When one statement is mentioned by many papers.
+
+\begin{itemize}
+    \item Ph.D. must publish 3 papers to graduate \cite{bcilab,2author,3author}.
+    \item \textcite{2author, 3author} mentioned that brainlab is where they work everyday.
+\end{itemize}
+
+
+% https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX
+\printbibliography %Prints bibliography
+
+\end{document}

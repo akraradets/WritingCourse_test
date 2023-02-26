@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Section 1: My First Section}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Text Style}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Figure}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Table}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Cite Style}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Subject Form}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Indirect form}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Multiple Citation}{4}{subsection.2.3}%

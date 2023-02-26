@@ -1,0 +1,4 @@
+.vscode-server
+*.aux
+*.log
+*.out

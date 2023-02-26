@@ -1,0 +1,44 @@
+% https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+\documentclass{article}
+% This library is for inserting an image
+\usepackage{graphicx}
+
+% This will let the \ref acts like a hyperlink.
+% Basically, you can click the text and jump to the reference item.
+% In addition, this allowed you to embed a URL.
+\usepackage{hyperref}
+\begin{document}
+
+% I create a folder `figures'. Then, load `bci-logo.png' into this folder.
+% You can use any folder name you like.
+\includegraphics{figures/bci-logo.png}
+
+\newpage
+% The image is too big to fit on the page
+\includegraphics[width=0.75\textwidth]{figures/bci-logo.png}
+
+This form of \verb!\includegraphics! instructs LATEX to set the figure's width to 75\% 
+of the text width—whose value is stored in the \verb!\textwidth! command.
+
+\newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/bci-logo.png}
+    \caption{AIT Brainlab Logo}
+    \label{fig:brainlab-logo}
+\end{figure}
+
+Now, we wrap the figure with the tag \verb!\begin{figure} ... \end{figure}!. 
+Inside, we have \verb!\centering! for centering the figure, 
+\verb!\caption! to include the caption (yeah sure),
+and \verb!\label! for future reference likes
+
+Yo!!, check out figure~\ref{fig:brainlab-logo}.
+
+Labeling begins with \verb!fig:! is a best practice in \LaTeX. 
+You don't need to follow this.
+We do it for organizing purposes.  
+
+Positioning the figure can be done. Read this \url{https://www.overleaf.com/learn/latex/Positioning_images_and_tables}.
+
+\end{document}

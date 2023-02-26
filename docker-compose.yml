@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  python: # Refer name in docker
+    image: writingcourse-python # image name -> container name
+    build: 
+      context: .
+      dockerfile: python.Dockerfile
+    volumes: # Map local folder into container (Persistance, shared folder)
+      - ./projects/:/root/projects 
+      - ./.vscode-server/python:/root/.vscode-server # vscode extension so we don't need to install this every time we rebuild the container
+    # deploy: # If you want to use GPU, comment this section
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  latex:
+    image: writingcourse-latex
+    build: 
+      context: .
+      dockerfile: latex.Dockerfile
+    volumes:
+      - ./projects/:/root/projects
+      - ./.vscode-server/latex:/root/.vscode-server
